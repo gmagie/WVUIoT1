@@ -1,0 +1,15 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: WVUIoT1
+  host: WVUIoT1
+  disk_quota: 1024M
+  services:
+  - WVUIoT1-cloudantNoSQLDB
+  - WVUIoT1-iotf-service
+  - dashDB for Analytics-am
+  - Text to Speech-9u
+  - Language Translator-fc
+  - Weather Company Data-yq
